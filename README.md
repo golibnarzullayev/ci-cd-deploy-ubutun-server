@@ -1,1 +1,5 @@
-# ci-cd-deploy-ubutun-server
+1. create user
+```
+adduser username
+```
+2. 
