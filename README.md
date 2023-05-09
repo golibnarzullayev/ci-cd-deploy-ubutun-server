@@ -1,4 +1,4 @@
-1. create user
+# 1. create user
 ```
 adduser username
 ```
