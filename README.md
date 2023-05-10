@@ -44,7 +44,7 @@ CTRL+X Y, enter or COMMAND+X Y enter
 sudo ln -s /etc/nginx/sites-available/domain.config /etc/nginx/sites-enabled/
 sudo service nginx restart
 sudo visudo -f /etc/sudoers.d/username
-  **username ALL=(ALL) NOPASSWD: /usr/sbin/service nginx start,/usr/sbin/service nginx stop,/usr/sbin/service nginx restart**
+  username ALL=(ALL) NOPASSWD: /usr/sbin/service nginx start,/usr/sbin/service nginx stop,/usr/sbin/service nginx restart
   CTRL+X Y, enter or COMMAND+X Y enter
 sudo reboot
 ```
