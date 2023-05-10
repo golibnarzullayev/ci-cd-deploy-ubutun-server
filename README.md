@@ -50,6 +50,7 @@ sudo reboot
 ```
 # 7. start project with pm2
 ```
+sudo - username
 sudo npm install pm2@latest -g
 cd /var/www/folder-name
 cd _work/repo-name/repo-name
