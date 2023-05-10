@@ -26,7 +26,7 @@ sudo touch domain.config
 sudo chmod -R 777 domain.config
 sudo nano domain.config
 
-  **server {
+  server {
     root /var/www/folder-name/_work/repo-name/repo-name;
     server_name mywebsite.com;
     location / {
@@ -37,7 +37,7 @@ sudo nano domain.config
       proxy_set_header Host $host;
       proxy_cache_bypass $http_upgrade;
    }
-  }**
+  }
   
 CTRL+X Y, enter or COMMAND+X Y enter
 
