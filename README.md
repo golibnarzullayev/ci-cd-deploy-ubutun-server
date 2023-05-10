@@ -1,7 +1,7 @@
 # 1. create user
 ```adduser username```
 # 2. permission created folder for new user
-```sudo usermode -aG sudo username```
+```sudo usermod -aG sudo username```
 # 3. login to the newly created user profile
 ```su - username```
 # 4. created project folder in /var/www
